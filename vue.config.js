@@ -16,11 +16,11 @@ module.exports = {
     publicPath: './',
     lintOnSave: false,
     // 配置代理跨域
-    devServer: {
-        proxy: {
-            "/api": {
-                target: "http://gmall-h5-api.atguigu.cn",
-            },
-        },
-    },
+    // devServer: {
+    //     proxy: {
+    //         "/api": {
+    //             target: "http://gmall-h5-api.atguigu.cn",
+    //         },
+    //     },
+    // },
 };
