@@ -5,8 +5,8 @@ import 'nprogress/nprogress.css'
 import store from '@/store'
 const requests = axios.create({
         //基础路径,发请求URL携带api【发现:真实服务器接口都携带/api】
-        baseURL: 'http://gmall-h5-api.atguigu.cn/api',
-        // baseURL: '/api',
+        // baseURL: 'http://gmall-h5-api.atguigu.cn/api',
+        baseURL: '/api',
         // 项目打包的时候不需要配置代理服务器
         // 时间不能超过5s
         timeout: 5000,
