@@ -9,16 +9,16 @@
                         </div>
                     </li>
                     <li class="banner">
-                        <img src="./images/today01.png" />
+                        <img src="./images/recom_01.jpg" />
                     </li>
                     <li class="banner">
-                        <img src="./images/today02.png" />
+                        <img src="./images/recom_02.jpg" />
                     </li>
                     <li class="banner">
-                        <img src="./images/today03.png" />
+                        <img src="./images/recom_03.jpg" />
                     </li>
                     <li class="banner">
-                        <img src="./images/today04.png" />
+                        <img src="./images/recom_04.jpg" />
                     </li>
                 </ul>
             </div>

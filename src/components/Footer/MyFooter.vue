@@ -48,8 +48,8 @@
             <li>夺宝岛</li>
             <li>DIY装机</li>
             <li>延保服务</li>
-            <li>尚品汇E卡</li>
-            <li>尚品汇通信</li>
+            <li>欢乐购E卡</li>
+            <li>欢乐购通信</li>
           </ul>
         </div>
         <div class="footerItem">
@@ -72,7 +72,7 @@
             <span class="space"></span>
           </li>
           <li>
-            商家入驻
+            联系客服
             <span class="space"></span>
           </li>
           <li>
@@ -84,21 +84,21 @@
             <span class="space"></span>
           </li>
           <li>
-            关于我们
+            手机欢乐购
             <span class="space"></span>
           </li>
           <li>
-            营销中心
+            营销联盟
             <span class="space"></span>
           </li>
           <li>
-            友情链接
+            欢乐购公益
             <span class="space"></span>
           </li>
-          <li>关于我们</li>
+          <li>English Site</li>
         </ul>
-        <p>地址：北京市昌平区宏福科技园综合楼6层</p>
-        <p>京ICP备19006430号</p>
+        <p>地址：重庆市沙坪坝区覃家岗街道办公楼一层 邮编:100096 电话13996084241 传真:010-82935100 邮箱: 3205514799@qq.com</p>
+        <p>京ICP备0421号京公网安备118007702</p>
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@
     <div class="top">
       <div class="container">
         <div class="loginList">
-          <p>尚品汇欢迎您！</p>
+          <p>欢乐购欢迎您！</p>
           <p v-if="!username">
             <span>请</span>
             <!-- <a href="###">登录</a> -->
@@ -22,12 +22,12 @@
           <router-link  to="/center/myorder">我的订单</router-link>
           <!-- <a href="###">我的购物车</a> -->
           <router-link to="/shopcart">我的购物车 </router-link>
-          <a href="###">我的尚品汇</a>
-          <a href="###">尚品汇会员</a>
+          <a href="###">我的欢乐购</a>
+          <a href="###">欢乐购会员</a>
           <a href="###">企业采购</a>
-          <a href="###">关注尚品汇</a>
-          <a href="###">合作招商</a>
-          <a href="###">商家后台</a>
+          <a href="###">关注欢乐购</a>
+          <a href="###">客户服务</a>
+          <a href="###">网站导航</a>
         </div>
       </div>
     </div>

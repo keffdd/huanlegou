@@ -3,9 +3,8 @@
    <TypNav></TypNav>
    <ListContainer></ListContainer>
    <TodayRecommend></TodayRecommend>
-   <MyRank></MyRank>
     <MyLike></MyLike>
-    <MyFloor v-for="floor in floorList" :key="floor.id" :floor="floor"></MyFloor>
+    <MyFloor></MyFloor>
     <MyBrand></MyBrand>
   </div>
 </template>
@@ -14,7 +13,6 @@
 // import TypNav from '@/pages/Home/TypNav/TypNav.vue'
 import ListContainer from '@/pages/Home/ListContainer/ListContainer.vue'
 import TodayRecommend from '@/pages/Home/TodayRecommend/TodayRecommend.vue'
-import MyRank from '@/pages/Home/MyRank/MyRank.vue'
 import MyLike from '@/pages/Home/MyLike/MyLike.vue'
 import MyFloor from '@/pages/Home/MyFloor/MyFloor.vue'
 import MyBrand from '@/pages/Home/MyBrand/MyBrand.vue'
@@ -22,7 +20,7 @@ import { mapState } from 'vuex'
 
 export default {
     name:'MyHome',
-    components:{ListContainer,TodayRecommend,MyRank,MyLike,MyFloor,MyBrand},
+    components:{ListContainer,TodayRecommend,MyLike,MyFloor,MyBrand},
     mounted() {
       this.$store.dispatch('getFloorList')
       // 获取用户信息

@@ -23,8 +23,8 @@
       <div class="way">
         <h5>配送方式</h5>
         <div class="info clearFix">
-          <span class="s1">天天快递</span>
-          <p>配送时间：预计8月10日（周三）09:00-15:00送达</p>
+          <span class="s1">欢乐快递</span>
+          <p>配送时间：预计6月06日（周三）06:06-16:00送达</p>
         </div>
       </div>
       <div class="detail">
@@ -89,7 +89,7 @@
 </template>
 
 <script>
-  import { mapState } from 'vuex';
+import { mapState } from 'vuex';
   export default {
     name: 'MyTrade',
     data() {
@@ -137,13 +137,14 @@
         orderDetailList: this.shopinfo.detailArrayList, //购物车商品信息
       };
       let r = await this.$API.reqSubmitOrder(tradeNo,data)
+      console.log(r)
       if(r.code ==200){
         // 提交成功
         this.orderId = r.data
         this.$router.push('/pay?orderId='+this.orderId)
       }else{
         // 提交失败
-        alert(r.data)
+        alert(r.message)
       }
       }
     },

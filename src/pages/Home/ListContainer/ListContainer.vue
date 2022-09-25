@@ -18,16 +18,16 @@
                                 <img src="./images/banner4.jpg" />
                             </div> -->
                               <div class="swiper-slide" >
+                                <img src="./images/banner.png" />
+                            </div>
+                            <div class="swiper-slide" >
                                 <img src="./images/banner1.jpg" />
                             </div>
                             <div class="swiper-slide" >
                                 <img src="./images/banner2.jpg" />
                             </div>
                             <div class="swiper-slide" >
-                                <img src="./images/banner3.jpg" />
-                            </div>
-                            <div class="swiper-slide" >
-                                <img src="./images/banner4.jpg" />
+                                <img src="./images/banner3.png" />
                             </div>
                             
                         </div>
@@ -42,7 +42,7 @@
                 <div class="right">
                     <div class="news">
                         <h4>
-                            <em class="fl">尚品汇快报</em>
+                            <em class="fl">欢乐购快报</em>
                             <span class="fr tip">更多 ></span>
                         </h4>
                         <div class="clearix"></div>
@@ -51,16 +51,16 @@
                                 <span class="bold">[特惠]</span>备战开学季 全民半价购数码
                             </li>
                             <li>
-                                <span class="bold">[公告]</span>备战开学季 全民半价购数码
+                                <span class="bold">[最新]</span>去朋友新家玩，送礼选它
                             </li>
                             <li>
-                                <span class="bold">[特惠]</span>备战开学季 全民半价购数码
+                                <span class="bold">[公告]</span>百元中秋全品类礼券限量领
                             </li>
                             <li>
-                                <span class="bold">[公告]</span>备战开学季 全民半价购数码
+                                <span class="bold">[最热]</span>格鲁吉亚红酒，法国人都爱喝
                             </li>
                             <li>
-                                <span class="bold">[特惠]</span>备战开学季 全民半价购数码
+                                <span class="bold">[公告]</span>每日享折扣 欢乐品质游
                             </li>
                         </ul>
                     </div>

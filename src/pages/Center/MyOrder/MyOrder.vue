@@ -69,7 +69,7 @@
             </div>
           </div>
           <!--猜你喜欢-->
-          <div class="like">
+          <!-- <div class="like">
             <h4 class="kt">猜你喜欢</h4>
             <ul class="like-list">
               <li class="likeItem">
@@ -127,7 +127,7 @@
                 </div>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
 </template>
 
