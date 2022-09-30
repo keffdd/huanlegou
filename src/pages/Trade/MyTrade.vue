@@ -137,7 +137,7 @@ import { mapState } from 'vuex';
         orderDetailList: this.shopinfo.detailArrayList, //购物车商品信息
       };
       let r = await this.$API.reqSubmitOrder(tradeNo,data)
-      console.log(r)
+     //console.log(r)
       if(r.code ==200){
         // 提交成功
         this.orderId = r.data

@@ -124,7 +124,6 @@
           //  console.log(type);
            if(type=='cancel'){
             // 点击取消按钮
-            // this.$message.error('支付遇见问题请联系超管豪哥');
             alert('支付遇见问题请联系豪哥')
             clearInterval(this.timer)
 
@@ -132,7 +131,7 @@
             // 关闭弹窗
             done()
            }else{
-            // if(this.code==200){
+            // if(this.code==200){ 
               clearInterval(this.timer)
               this.timer = null
               done()

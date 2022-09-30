@@ -74,7 +74,7 @@
       return {
         // 手机号
         phone:'',
-        // 密码
+        // 验证码
         code:'',
         // 密码
         password:'',

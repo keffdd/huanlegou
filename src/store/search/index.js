@@ -9,6 +9,7 @@ const mutations = {
 }
 const actions = {
     async getSearchList({ commit }, params = {}) {
+        // console.log(params);
         let r = await reqGetSearchInfo(params)
         if (r.code == 200) {
             commit('GETSEARCHLIST', r.data)
